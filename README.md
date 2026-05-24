@@ -1,10 +1,10 @@
 # E-Commerce Data Pipeline & Optimization (Data Engineering Pipeline - Python)
 
-📊 **Python Data Engineering Pipeline To Transform Raw, Static E-Commerce Dataset To A High Performant Dataset Ready For Business Intelligence (BI) And Analytical Use.**
+ **Python Data Engineering Pipeline To Transform Raw, Static E-Commerce Dataset To A High Performant Dataset Ready For Business Intelligence (BI) And Analytical Use.**
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 The nature of many e-commerce datasets is that they are typically not well-structured due to multiple sources of nested JSON fields, many lines of HTML meta-data, and media links associated with the records, which will negatively affect database query performance.
 
@@ -17,7 +17,7 @@ The goal of this project was to create a reproducible data engineering process u
 
 ---
 
-## 📈 System Architecture & Schema
+##  System Architecture & Schema
 
 The pipeline transforms the incoming database table from clutter into clean high-value metrics:
 
@@ -33,7 +33,7 @@ The pipeline transforms the incoming database table from clutter into clean high
 
 ---
 
-## ⚙️ Core Pipeline Implementation Steps
+##  Core Pipeline Implementation Steps
 
 There are three core stages in which the pipeline is constructed:
 
