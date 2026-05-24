@@ -38,5 +38,5 @@ The pipeline transforms the incoming database table from clutter into clean high
 There are three core stages in which the pipeline is constructed:
 
 ### 1) Ingesting & Structurally Stabilizing The Data
-* **Loading Data**: Load the raw e-commerce dataset into a single data frame[citation: 1].
+* **Loading Data**: Load the raw e-commerce dataset into a single data frame.
 * **Null Fields**: Address all missing numerical values.
