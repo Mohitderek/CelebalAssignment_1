@@ -8,18 +8,18 @@
 
 Raw e-commerce datasets are frequently unorganized, featuring nested JSON fields, multi-line HTML metadata, and media links that heavily degrade database query performance. 
 
-This project establishes a reproducible data engineering workflow using `pandas` and `numpy`. It ingests a dataset of **1,000 retail products**, executes targeted data imputation, safely removes duplicate logs, implements user-behavior simulations via mathematical broadcasting, and prunes the schema from **24 down to 7 core analytical features**[cite: 1].
+This project establishes a reproducible data engineering workflow using `pandas` and `numpy`. It ingests a dataset of **1,000 retail products**, executes targeted data imputation, safely removes duplicate logs, implements user-behavior simulations via mathematical broadcasting, and prunes the schema from **24 down to 7 core analytical features**.
 
 ### Key Achievements:
-* **85% Storage Optimization:** Stripped away 17 non-essential, heavy textual/JSON columns[cite: 1].
-* **No Data Loss:** Re-mapped null fields into standardized categorical metrics without altering original row logic[cite: 1].
-* **Feature Engineering:** Derived absolute transaction values using uniform, seeded random volume distributions[cite: 1].
+* **85% Storage Optimization:** Stripped away 17 non-essential, heavy textual/JSON columns.
+* **No Data Loss:** Re-mapped null fields into standardized categorical metrics without altering original row logic.
+* **Feature Engineering:** Derived absolute transaction values using uniform, seeded random volume distributions.
 
 ---
 
 ## 📈 System Architecture & Schema
 
-The pipeline refines the incoming database table to isolate high-value structural metrics[cite: 1]:
+The pipeline refines the incoming database table to isolate high-value structural metrics:
 
 | Attribute | Data Type | Key/Role | Analytical Purpose |
 | :--- | :--- | :--- | :--- |
