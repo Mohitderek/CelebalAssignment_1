@@ -23,13 +23,13 @@ The pipeline refines the incoming database table to isolate high-value structura
 
 | Attribute | Data Type | Key/Role | Analytical Purpose |
 | :--- | :--- | :--- | :--- |
-| `product_id` | `int64` | Primary Key | Unique item identifier[cite: 1] |
-| `title` | `object` | Feature | Brand / Manufacturer label[cite: 1] |
-| `category` | `object` | Feature | Item classification segment[cite: 1] |
-| `rating` | `float64` | Feature | Customer review score (0.0 - 5.0)[cite: 1] |
-| `price` | `float64` | Feature | Item unit cost in local currency (INR)[cite: 1] |
-| `quantity` | `int32` | Synthetic | Simulated volume bought per transaction[cite: 1] |
-| `total_amount` | `float64` | Target/Derived | Final transaction gross sales metric[cite: 1] |
+| `product_id` | `int64` | Primary Key | Unique item identifier |
+| `title` | `object` | Feature | Brand / Manufacturer label |
+| `category` | `object` | Feature | Item classification segment |
+| `rating` | `float64` | Feature | Customer review score (0.0 - 5.0) |
+| `price` | `float64` | Feature | Item unit cost in local currency (INR) |
+| `quantity` | `int32` | Synthetic | Simulated volume bought per transaction |
+| `total_amount` | `float64` | Target/Derived | Final transaction gross sales metric |
 
 ---
 
